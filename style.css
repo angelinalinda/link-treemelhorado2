@@ -48,9 +48,20 @@ img{
     margin-bottom: 24px;
 }
     a{
+        display: block;
         color: palegreen;
         text-decoration: none;
+        background-color: rgb(92, 157, 243) ;
+        margin-bottom: 16px;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 700;
     }
+        a:hover{
+            background-color: antiquewhite;
+            color:  palevioletred;
+        }
 
     
     
