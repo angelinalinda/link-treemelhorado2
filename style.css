@@ -1,1 +1,47 @@
-/* Add styles here */
+*´{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    :root {
+   --blue: rgb(92, 157, 243)
+   --pink: palevioletred
+   --white: aliceblue; 
+   --green:palegreen
+    }
+    body{
+        background-color: rgb(92, 157, 243);
+        height: 100svh;
+        display: flex;
+       justify-content: center;
+       align-items: center;        
+    } 
+    div{
+         background-color: palevioletred;
+         color: palegreen;
+         max-width: 384px;
+         text-align: center;
+         padding: 40px;
+         border-radius: 12px;
+    }
+    h1{
+        color: aliceblue;
+    }
+    strong{
+        color: palegreen;
+    }
+    p{
+        color: aliceblue;
+    }
+    ul, li{
+        list-style: none;
+    }
+img{
+    width: 99px;
+    border-radius: 40%;
+    margin-bottom: 24px;
+}
+
+    
+    
